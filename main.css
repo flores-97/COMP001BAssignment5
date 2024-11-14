@@ -20,6 +20,7 @@ a:focus, a:hover {
 body {
 	font-family: 'Noto Serif', serif;
 	font-size: 18px;
+	background-color: grey
 }
 
 h1, h2 {
@@ -39,10 +40,12 @@ h2 {
 
 header {
 	text-align: center;
+	background-color: 
 }
 
 main {
-
+	line-height: 140%;
+	padding-right: 1em;
 }
 
 p {
@@ -55,15 +58,19 @@ p {
 }
 
 #automotive, #maritime, #medical, #physics, #myths {
-
+	line-height: 140%;
+	margin-bottom: 1em;
+	border: solid;
+	border-color: black;
+	
 }
 
 #footer-container {
-	
+	text-align: center;
 }
 
 #header-container {
-	
+	text-align: center;
 }
 
 #main-container {
