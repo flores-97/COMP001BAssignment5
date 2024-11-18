@@ -79,6 +79,8 @@ p {
 }
 
 #main-container {
+	line-height: 140%;
+	margin-bottom: 1em;
 	display: grid;
 	grid-template-columns: 250px auto 250px;
 	/*this sets the requested grid style stated in the assignment*/ 
